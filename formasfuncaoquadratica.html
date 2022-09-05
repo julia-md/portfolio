@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> </title>
+    <link href="css/estilo.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="sumario">
+        <center>
+            <br>
+            <table width="950" cellspadding="5" cellspacing="5">
+                <tr>
+                    <td class="marca"><a href="index.html">Home</a></td>
+                    <td class="marca"><a href="introducao.html">Introdução</a></td>
+                    <td class="marca"><a href="funexponecial.html">Funções Exponenciais</a></td>
+                    <td clas="marca"><a href="funcaomodular.html">Funções Modulares</a></td>
+                    <td class="marca"><a href="formasfuncaoquadratica.html">Função Geral, Canônica e Fatorada</a></td>
+                    <td class="marca"><a href="logaritmos.html">Logaritimos</a></td>
+                    <td class="marca"><a href="autoavaliacao.html">Autoavaliação</a></td>
+                </tr>
+            </table>
+            <br>
+        </center>
+    </div>
+    <h1 class="principal">Formas da Função Quadrática</h1>
+    <br>
+    <h2 class="subtitulo">&nbsp; &nbsp;O que é uma função quadrática?</h2>
+    <p class="paragrafo">A função quadrática ou função de 2&deg; grau é uma função 𝑓: ℝ → ℝ de domínio real, isso quer
+        dizer que, qualquer número real pode ser o x, e para cada número desse x, associamos a uma das fórmulas da
+        função quadrática. Para calcularmos a função 2&deg; grau podemos usar três formas diferentes: a geral, a
+        canônica e a fatorada, todas irão proporcionar o mesmo resultado. Abaixo irei explicar cada uma delas. O gráfico
+        da função quadrática será sempre em
+        formata de parábola.</p>
+
+    <table id="tabela" border="1" align="center" width="500" height="150">
+        <thead>
+            <tr class="cor">
+                <th scope="col">Forma</th>
+                <th scope="col">Equação</th>
+                <th scope="col">Função</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr class="cor">
+                <td>Forma Geral</td>
+                <td>ax<sup>2</sup> + bx + c = 0</td>
+                <td>f(x) = ax<sup>2</sup> + bx + c</td>
+            </tr>
+
+            <tr class="cor">
+                <td>;Forma Canônica</td>
+                <td>a(x - xv)<sup>2</sup> + yv = 0</td>
+                <td>f(x) = a(x - xv)<sup>2</sup> + yv</td>
+            </tr>
+
+            <tr class="cor">
+                <td>&nbsp;Forma Fatorada&nbsp;</td>
+                <td>a(x - x<sub>1</sub>) (x - x<sub>2</sub>) = 0</td>
+                <td>f(x) = a(x - x<sub>1</sub>) (x - x<sub>2</sub>)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2 class="subtitulo">&nbsp; &nbsp;Forma Geral</h2>
+    <p class="paragrafo">É a forma da qual somos ensinados na escola pois é a mais conhecida e utilizada, definida pela
+        função: f(x) = ax<sup>2</sup> + bx + c.</p>
+
+    <ol id="numeracao">
+        <li>Os coeficintes <b>a, b e c</b> terão que ser números reais e o coeficinte <b>a</b> precisa ser diferente de
+            zero.</li>
+        <li>O gráfico dessa função terá que ser, sempre, em formato de parábola, com o eixo de simetria paralelo ao eixo
+            <b>y</b>.
+        </li>
+        <li>Seu domínio é D(f) = ℝ, mas dependendo da situação, isso pode mudar.</li>
+        <li>A imagem depende do vértice e da da concavidade da parábloa.</li>
+    </ol>
+    <img src="imagens/funcaogeral.png" width="600" height="450">
+    <p class="paragrafo">&nbsp;Exemplo do uso da Forma Geral no Geogebra.</p>
+    <h2 class="subtitulo">&nbsp; &nbsp;Forma Canônica</h2>
+    <p class="paragrafo">A forma canônica descreve a parábola a partir das coordenadas de seus vértices, isso quer dizer
+        que, a
+        partir de <b>xv e xy</b> e de mais um ponto. Ela é representada pela expressão: f(x) = a(x - xv)<sup>2</sup> +
+        yv. O elemento de letra <b>a</b> representa a concavidade da parábola.
+        A forma canônica é muito utilizada quando já se tem os valores das coordenadas dos vértices.</p>
+    <table width="1000" cellspacing="20">
+        <tr>
+            <td>
+                <img src="imagens/formacanonica.png" width="600" height="450">
+            </td>
+            <td>
+                <iframe width="750" height="450" src="https://www.youtube.com/embed/rY_ltkdDu0Q"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </td>
+        </tr>
+
+    </table>
+    <p class="paragrafo">Exemplo do uso da Forma Canônica no Geogebra e vídeo que usei para entender melhor o conteúdo.
+    </p>
+    <h2 class="subtitulo">&nbsp; &nbsp;Forma Fatorada</h2>
+    <p class="paragrafo">A forma fatorada é representada pela função: f(x) = a(x - x<sub>1</sub>) (x - x<sub>2</sub>),
+        onde x<sub>1</sub> e x<sub>2</sub> representam as raízes da função (que devem ser achados por meio da fómula de
+        Bhaskara), ou seja, os valores de <b>x</b> para os quais
+        <b>y</b> = 0. Dessa forma, podemos deduzir, que só poderemos representar a parábola com a função fatorada se ela
+        possuir raízes reais.
+    </p>
+    <img src="imagens/formafatorada.png" width="600" height="450">
+    <p class="paragrafo">&nbsp;Exemplo do uso da Forma Fatorada no Geogebra.</p>
+    <h2 class="subtitulo">&nbsp; &nbsp;Exercícios</h2>
+    <img src="imagens/todasformas.png" width="600" height="450">
+    <p class="paragrafo">Neste exemplo, podemos perceber que as funções: f(x), h(x) e g(x) representam, repectivamente,
+        a forma geral, a
+        forma fatorada e a forma canônica, e todas as três estão exatamente no mesmo lugar, o que podemos concluir, que
+        todas geram o mesmo resultado no final, elas apenas são executadas de formas diferentes.</p>
+    <table width="1000" align="center">
+        <tr>
+            <td><img src="imagens/exformas.jpg" width="395" height="335"></td>
+            <td><img src="imagens/exemploformas.jpg" width="395" height="335"></td>
+        </tr>
+        <tr>
+            <td><img src="imagens/tresformas.jpg" width="395" height="335"></td>
+            <td><img src="imagens/formasqudraticas.jpg" width="395" height="335"></td>
+        </tr>
+    </table>
+
+    <h2 class="subtitulo">&nbsp; &nbsp;Reflexões</h2>
+    <p class="paragrafo">Acredito que de todos os conteúdos que vimos durante este semestre, esse foi de longe, o mais
+        complicado e difícil de todos, acredito que seja porque foi algo totalmente novo para mim, eu nunca sequer ouvi
+        falar sobre essas duas outras formas da função quadrática, então quando vi isso pela primeira vez, fiquei, de
+        fato, muito confusa. Eu não sabia em qual fórmula cada número deveria ser trocado e, para piorar, elas possuem,
+        como se fosse, uma relação de depenência, pois para achar o resultado de uma eu precisaria do resultado da
+        outra, ou seja, se a primeira estivesse errado, já erra. Eu precisei de muita ajuda para conseguir compreender a
+        lógica por trás da forma
+        canônica e fatorada. Mas no final deu certo, agradeço o esforço da professora por explicar quantas vezes fosse necessário.</p>
+</body>
+
+</html>
